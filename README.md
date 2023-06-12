@@ -3,9 +3,9 @@
 To write a sql query to perform ROLLUP in SQL.
 ## Procedure:
 ### Step 1:
-create database ROLLUP_OPERATION  .
+Create database ROLLUP_OPERATION  .
 ### Step 2:
-create table Employees.
+Create table Employees.
 ### Step 3:
 Insert Value to the table.
 ### Step 4:
