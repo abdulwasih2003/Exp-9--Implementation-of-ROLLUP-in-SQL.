@@ -1,16 +1,18 @@
-# Exp 9 Implementation of ROLLUP in SQL.
-## AIM:
+# Exp-9--Implementation of ROLLUP in SQL.
+## Aim:
 To write a sql query to perform ROLLUP in SQL.
-## PROCEDURE:
-### STEP 1:
+## Procedure:
+### Step 1:
 create database ROLLUP_OPERATION  .
-### STEP 2:
+### Step 2:
 create table Employees.
-### STEP 3:
+### Step 3:
 Insert Value to the table.
-### STEP 4:
+### Step 4:
 Perform ROLLUP on Employees table.
-## PROGRAM:
+### Step 5:
+Display the result.
+## Program:
 ```sql
 CREATE DATABASE ROLLUP_OPERATION;
 USE ROLLUP_OPERATION;
@@ -34,8 +36,8 @@ SELECT Department, FirstName, LastName, SUM(Salary) AS TotalSalary
 FROM Employees
 GROUP BY Department, FirstName, LastName WITH ROLLUP;
 ```
-## OUTPUT:
+## Output:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX09/assets/93427303/c165f7b1-db82-478a-8d8b-2f8ad397a130)
 
-## RESULT:
+## Result:
 A sql query to perform ROLLUP in sql has been executed.
